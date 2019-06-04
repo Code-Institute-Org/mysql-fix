@@ -1,4 +1,4 @@
-* SQL script file to create a user for MySQL lessons
+# SQL script file to create a user for MySQL lessons
 
 This script file should be run in Cloud9. It will create a user on the database that can then be used with the sample code.
 
