@@ -2,8 +2,8 @@
 
 This script file should be run in Cloud9. It will create a user on the database that can then be used with the sample code.
 
-To run it, use `wget` to download the raw file.
+To run it, use the following command:
 
-Then, import it into MySQL with the command: `sudo mysql < create_user.sql`
+```wget https://raw.githubusercontent.com/Code-Institute-Org/mysql-fix/master/createuser.sh && source ./createuser.sh```
 
-Change the code in the videos to use `c9user` as the username and `password` as the password.
+This will create a user in the database with the username of whatever the `C9_USER` environment variable is set to.
